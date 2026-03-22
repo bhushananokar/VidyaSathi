@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python environment files
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log
+npm-error.log
+yarn-error.log
+dist/
+build/
+
+# Frontend build artifacts
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads and temporary files
+uploads/
+*.tmp
+.temp/
+
+# Cache
+.cache/
+*.cache
+__pycache__/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.env.docker
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VS Code settings (optional, keep if you want shared settings)
+# .vscode/settings.json
