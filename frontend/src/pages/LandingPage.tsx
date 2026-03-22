@@ -93,7 +93,7 @@ export const LandingPage: React.FC = () => {
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
             Every Student Deserves<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-saffron-300 to-yellow-200">
+            <span className="text-white">
               a Personal Tutor
             </span>
           </h1>
