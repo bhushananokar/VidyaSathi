@@ -161,7 +161,7 @@ export const QuizPage: React.FC = () => {
                   <select value={selectedNotebook} onChange={e => setSelectedNotebook(e.target.value)}
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-500 bg-white text-sm">
                     <option value="">Select a notebook...</option>
-                    {notebooks.map(n => <option key={n.id} value={n.id}>{n.source_type === 'pdf' ? '📄' : '📝'} {n.title}</option>)}
+                    {notebooks.map(n => <option key={n.id} value={n.id}>📚 {n.title}</option>)}
                   </select>
                   {notebooks.length === 0 && (
                     <p className="text-xs text-amber-600 mt-1">No ready notebooks. Add content in the Notebook tab first.</p>
